@@ -1,0 +1,6 @@
+<process name = "doc2dom_ameya_test"> 
+  <sequence name="Main">
+    <assign to="." from="DocToDOM(PrimaryDocument/Successful,'false','false')"></assign>
+    <assign name="Assign" to="TestDir">/tmp/test</assign>
+  </sequence>
+</process>
